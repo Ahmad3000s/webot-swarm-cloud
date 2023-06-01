@@ -53,7 +53,7 @@ while robot.step(timeStep) != -1:
     if sensorsValues[0] > 100:
       speed.append(0.0)
     else:
-      speed.append(20.0)
+      speed.append(2.0)
   
   # set speed values
   leftMotor.setVelocity(speed[0])
